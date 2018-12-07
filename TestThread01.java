@@ -20,8 +20,6 @@ public class TestThread01 {
 
 class CreatThread implements Runnable {
 
-    private boolean flag = false;
-
     @Override
     public void run() {
         for (int i = 0; i < 500; i++) {
